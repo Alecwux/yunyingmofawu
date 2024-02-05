@@ -4,19 +4,9 @@ $('body').attr('data-type') == 'index' ?  src='' : src = '../';
 const footer_html = `
 <footer class="container-fluid footer-module hidden-xs hidden-sm" style="padding:15px 0;">
     <div id="back-top"></div>
-    <!--
-    <section id="lx_contact">
-        <img src="images/tool_ruzhu001_03.png" alt="">
-        <p>联&nbsp;系<br/>入&nbsp;驻</p>
-        <section class="barimg">
-            <img src="images/lh_r01_03.jpg" alt="" />
-            <p>联&nbsp;系&nbsp;客&nbsp;服</p></section>
-    </section>
-    -->
     <aside id="left_nav">
         <div class="left_nav_divul">
             <ul id="myMenu">
-                <li><a hrefs="#commend" style="display:none;">每周优选工具</a></li>
                 <li><a hrefs="#tabletool">01&nbsp;热点搜索</a></li>
                 <li><a hrefs="#playtool">02&nbsp;资讯类</a></li>
                 <li><a hrefs="#makeurl">03&nbsp;网址缩短</a></li>
@@ -41,41 +31,14 @@ const footer_html = `
         <div class="left_nav_page"><span class="glyphicon glyphicon-menu-down"></span></div>
     </aside>
     <div class="container footer-container">
-        <!-- -->
-        <p style="width:350px;width:fit-content;padding:0;margin:0 auto;">Copyright © 2018-2018 运营魔法屋 运营工作者导航网站</p>
+        <p style="width:350px;width:fit-content;padding:0;margin:0 auto;">Copyright © 2018-2024 运营魔法屋 运营工作者导航网站</p>
     </div>
 </footer>
 
 <footer class="container foot hidden-md hidden-lg">
-    <!--
-    <ul class="foot-link">
-        <li><a href="http://about.ipaiban.com" class="about_about" target="_blank">关于我们</a>|</li>
-        <li><a href="http://help.ipaiban.com" class="about_help" target="_blank">帮助中心</a>|</li>
-        <li><a href="http://service.ipaiban.com" class="about_service" target="_blank">服务协议</a>|</li>
-        <li><a href="mailto:ipaiban@playhudong.com?subject=给i排版的建议或意见&amp;cc=thor@playhudong.com;yangchenyang@playhudong.com&amp;body=i排版你好,%0a%0d关于编辑器我有一些建议：%0a%0d1.%0a%0d2.%0a%0d我的微信号：" target="_blank" style="border-right: none">联系邮箱</a></li>
-    </ul>
-    <div class="foot-info">© 2017<a href="javascript:;" target="_blank">小黄人科技.</a>
-        <a style="margin-left: 10px;" href="http://www.miibeian.gov.cn/" target="_blank">京ICP备14043207号-2</a>
-        <a style="margin-left: 14px;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802023272" target="_blank">
-            <img src="https://style.ipaiban.com/keywordimage/beian.png" style="width: 18px;">京公网安备11010802023272号</a>
-    </div>
-    -->
-    <p style="width:350px;width:fit-content;padding:0;margin:0 auto;">Copyright © 2018-2018 运营魔法屋 运营工作者导航网站</p>
+    <p style="width:350px;width:fit-content;padding:0;margin:0 auto;">Copyright © 2018-2024运营魔法屋 运营工作者导航网站</p>
 </footer>`;
 $('#common-footer').html(footer_html);
-
-// 关于我们
-$('.about_about').attr('href','http://ipaiban.com/about/other.html');
-// 帮助中心
-$('.about_help').attr('href','http://ipaiban.com/about/other.html?help');
-// 服务协议
-$('.about_service').attr('href','http://ipaiban.com/about/other.html?service');
-// 人才招聘
-$('.about_recruitment').attr('href','http://ipaiban.com/about/other.html?recruitment');
-// 产品服务
-$('.about_product').attr('href','http://ipaiban.com/about/other.html?product');
-// 联系我们
-$('.about_contact').attr('href','http://ipaiban.com/about/other.html?contact');
 
 
 $(document).ready(function () {
